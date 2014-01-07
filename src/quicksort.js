@@ -15,7 +15,6 @@ function quicksort_by(f) {
   }
 
   function quicksort(a, lo, hi) {
-
     // Compute the two pivots by looking at 5 elements.
     var sixth = (hi - lo) / 6 | 0,
         i1 = lo + sixth,
